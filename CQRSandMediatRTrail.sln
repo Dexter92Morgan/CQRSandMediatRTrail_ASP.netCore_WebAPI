@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSandMediaRTrail", "CQRSandMediaRTrail", "{79FCEBB4-0859-4F70-A469-14EAAD6A4427}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSandMediaRTrail.API", "CQRSandMediaRTrail.API", "{D32F6A47-4458-49D7-BF4B-57E3C40E1B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSandMediaRTrail.Services", "CQRSandMediaRTrail.Services", "{CA62936D-E3F3-410F-B2C5-855114C616FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSandMediaRTrail.API", "CQRSandMediaRTrail.API\CQRSandMediaRTrail.API\CQRSandMediaRTrail.API.csproj", "{3A1B25A3-AC53-41CD-818A-C79E8369717D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSandMediaRTrail.Services", "CQRSandMediaRTrail.Services\CQRSandMediaRTrail.Services\CQRSandMediaRTrail.Services.csproj", "{8CB340E6-0BCE-4E66-B487-C7FA04A44A69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A1B25A3-AC53-41CD-818A-C79E8369717D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1B25A3-AC53-41CD-818A-C79E8369717D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1B25A3-AC53-41CD-818A-C79E8369717D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1B25A3-AC53-41CD-818A-C79E8369717D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB340E6-0BCE-4E66-B487-C7FA04A44A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB340E6-0BCE-4E66-B487-C7FA04A44A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB340E6-0BCE-4E66-B487-C7FA04A44A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB340E6-0BCE-4E66-B487-C7FA04A44A69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D32F6A47-4458-49D7-BF4B-57E3C40E1B6C} = {79FCEBB4-0859-4F70-A469-14EAAD6A4427}
+		{CA62936D-E3F3-410F-B2C5-855114C616FF} = {79FCEBB4-0859-4F70-A469-14EAAD6A4427}
+		{3A1B25A3-AC53-41CD-818A-C79E8369717D} = {D32F6A47-4458-49D7-BF4B-57E3C40E1B6C}
+		{8CB340E6-0BCE-4E66-B487-C7FA04A44A69} = {CA62936D-E3F3-410F-B2C5-855114C616FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2DD33F6-08D0-4F8A-9023-F12A899C1B1D}
+	EndGlobalSection
+EndGlobal
